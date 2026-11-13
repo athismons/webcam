@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Webcam en direct — Ville d’Athis-Mons</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="lecteur.js"></script>
+</head>
+<body>
+  <main aria-label="Webcam de la Ville d’Athis-Mons">
+    <div id="player"></div>
+    <div id="message" role="status" aria-live="polite">Recherche du direct…</div>
+    <div id="consent" hidden>
+      <p>Le direct est diffusé par YouTube. En l’affichant, vous établissez une connexion avec Google.</p>
+      <button id="show" type="button">Afficher le direct YouTube</button>
+      <a href="https://www.mairie-athis-mons.fr/protection-des-donnees/" target="_blank" rel="noopener">Protection des données</a>
+    </div>
+  </main>
+</body>
+</html>
