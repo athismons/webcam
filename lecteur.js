@@ -28,7 +28,7 @@
     if (!video) {
       player.replaceChildren();
       loaded = null;
-      message.textContent = 'Le direct est momentanément indisponible. La reprise sera recherchée automatiquement.';
+      message.textContent = 'Le direct est momentanément indisponible.';
       message.hidden = false;
       consent.hidden = true;
       return;
